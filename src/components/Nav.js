@@ -49,7 +49,8 @@ const overrides = {
 			"line-height": "21.6px",
 			"padding": "20px",
 			"text-align": "left",
-			"text-transform": "uppercase"
+			"text-transform": "uppercase",
+			"text-decoration": "none"
 		}
 	},
 	"menuOverride1": {

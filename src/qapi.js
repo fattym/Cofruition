@@ -25,7 +25,7 @@ export default {
 		"6138e7557514e1001f25a3d7": {
 			"id": "6138e7557514e1001f25a3d7",
 			"pageUrl": "about",
-			"name": "About"
+			"name": "Departments"
 		},
 		"613916d6957019001e2863e8": {
 			"id": "613916d6957019001e2863e8",

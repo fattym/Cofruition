@@ -17,6 +17,7 @@ export default (() => {
 		</Helmet>
 		<Components.Nav />
 		<Components.Form />
+		<Components.Footer1 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
