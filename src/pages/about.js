@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Text, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Stack } from "@quarkly/components";
+import { RawHtml } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -43,9 +43,8 @@ export default (() => {
 			>
 				The smartest people work every day to provide the best service and to make our clients happy
 			</Text>
-			<Stack margin-top="40px">
-				<Components.Card />
-			</Stack>
+			<Components.Card />
+			<Components.Table />
 		</Section>
 		<Components.Footer1 />
 		<Link

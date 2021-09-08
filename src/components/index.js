@@ -1,4 +1,5 @@
 export { default as Nav } from "./Nav"
-export { default as Footer1 } from "./Footer1"
 export { default as Form } from "./Form"
 export { default as Card } from "./Card"
+export { default as Table } from "./Table"
+export { default as Footer1 } from "./Footer1"
