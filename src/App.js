@@ -1,6 +1,8 @@
 import React from "react";
 import Index from "pages/index";
 import About from "pages/about";
+import Login from "pages/login";
+import SignUp from "pages/signUp";
 import Page404 from "pages/page404";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { createGlobalStyle } from "styled-components";
@@ -20,6 +22,8 @@ export default () => (
         			<Route exact path='/' component={Index}/>
 			<Route exact path='/index' component={Index}/>
 			<Route exact path='/about' component={About}/>
+			<Route exact path='/login' component={Login}/>
+			<Route exact path='/sign-up' component={SignUp}/>
 			<Route component={Page404}/>
         </Switch>
     </Router>
