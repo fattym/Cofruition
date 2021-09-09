@@ -141,7 +141,6 @@ export default (() => {
 		</Stack>
 		<Image width="64px" height="64px" />
 		<Components.Footer1 />
-		<Components.Card />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

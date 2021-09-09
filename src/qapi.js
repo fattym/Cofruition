@@ -9,7 +9,8 @@ export default {
 				"6138dd0852477d001f630fd8",
 				"6138e7557514e1001f25a3d7",
 				"613916d6957019001e2863e8",
-				"613916ec17f5d1001e31c722"
+				"613916ec17f5d1001e31c722",
+				"6139ca3c957019001e2865fe"
 			]
 		},
 		"6138dd0852477d001f630fd6": {
@@ -36,6 +37,11 @@ export default {
 			"id": "613916ec17f5d1001e31c722",
 			"pageUrl": "sign-up",
 			"name": "Sign Up"
+		},
+		"6139ca3c957019001e2865fe": {
+			"id": "6139ca3c957019001e2865fe",
+			"pageUrl": "profile",
+			"name": "Profile"
 		}
 	},
 	"mode": "production",
