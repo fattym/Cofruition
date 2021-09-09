@@ -55,6 +55,7 @@ const overrides = {
 		"kind": "Text",
 		"props": {
 			"as": "p",
+			'font-family': 'Montserrat',
 			"margin": "10px 0 5px 0",
 			"children": "Birth date"
 		}
@@ -63,6 +64,7 @@ const overrides = {
 		"kind": "Link",
 		"props": {
 			"margin": "10px 0 5px 0",
+			'font-family': 'Montserrat',
 			"color": "--primary",
 			"text-decoration": "none",
 			"children": "Email"
@@ -72,6 +74,7 @@ const overrides = {
 		"kind": "Link",
 		"props": {
 			"margin": "10px 0 5px 0",
+			'font-family': 'Montserrat',
 			"color": "--primary",
 			"text-decoration": "none",
 			"children": "Phone"
@@ -81,6 +84,7 @@ const overrides = {
 		"kind": "Text",
 		"props": {
 			"as": "p",
+			'font-family': 'Montserrat',
 			"margin": "20px 0 5px 0",
 			"children": "Home address"
 		}

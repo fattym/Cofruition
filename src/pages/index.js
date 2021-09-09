@@ -49,7 +49,7 @@ export default (() => {
 					letter-spacing="1px"
 				>
 					<Text margin="0px">
-						About me
+						StePS
 					</Text>
 				</StackItem>
 				<StackItem width="25%" lg-width="50%" sm-width="100%">
@@ -141,6 +141,7 @@ export default (() => {
 		</Stack>
 		<Image width="64px" height="64px" />
 		<Components.Footer1 />
+		<Components.Card />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
