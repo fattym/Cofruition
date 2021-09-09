@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml } from "@quarkly/components";
+import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -16,7 +16,9 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Components.Nav />
-		<Components.More lg-background="rgba(249, 170, 101, 0.52)" />
+		<Components.More lg-background="rgba(249, 170, 101, 0.52)">
+			<Override slot="card" display="none" />
+		</Components.More>
 		<Components.Footer1 />
 		<Link
 			font={"--capture"}
